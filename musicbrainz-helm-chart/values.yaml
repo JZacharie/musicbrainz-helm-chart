@@ -1,0 +1,25 @@
+image:
+  repository: ghcr.io/linuxserver/musicbrainz
+  tag: latest
+
+containerName: musicbrainz
+
+environment:
+  PUID: 1000
+  PGID: 1000
+  TZ: Europe/London
+  BRAINZCODE: <code from MusicBrainz>
+  WEBADDRESS: <ip of host>
+  NPROC: <parameter>
+
+volumes:
+  configVolume:
+    hostPath: </path/to/appdata/config>
+  dataVolume:
+    hostPath: </path/to/appdata/data>
+
+ports:
+  - name: http
+    containerPort: 5000
+
+restartPolicy: unless-stopped
