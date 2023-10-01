@@ -3,6 +3,16 @@ entries:
   musicbrainz-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-10-01T15:32:55.725621117Z"
+    description: A Helm chart for deploying MusicBrainz with Docker
+    digest: 3eaa952729ace8427b4a64ebf714fd47b86e356f548dc4c6be709c95d12cae91
+    name: musicbrainz-helm-chart
+    type: application
+    urls:
+    - https://github.com/JZacharie/musicbrainz-helm-chart/releases/download/musicbrainz-helm-chart-0.1.4/musicbrainz-helm-chart-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-10-01T15:28:27.286698095Z"
     description: A Helm chart for deploying MusicBrainz with Docker
     digest: 4750d68cc9b4a2e747e95992fe3db48e34576724cf6f47271ce6962170e9272b
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/JZacharie/musicbrainz-helm-chart/releases/download/musicbrainz-helm-chart-0.1.2/musicbrainz-helm-chart-0.1.2.tgz
     version: 0.1.2
-generated: "2023-10-01T15:28:27.286704095Z"
+generated: "2023-10-01T15:32:55.725631918Z"
