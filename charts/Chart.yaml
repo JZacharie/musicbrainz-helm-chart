@@ -1,7 +1,7 @@
 apiVersion: v2
 name: musicbrainz-helm-chart
 description: A Helm chart for deploying MusicBrainz with Docker
-version: 0.1.1
+version: 0.1.2
 
 # A chart can be either an 'application' or a 'library' chart.
 #
