@@ -20,15 +20,15 @@ spec:
         ports:
         - name: http
           containerPort: {{ .Values.ports.http.containerPort }}
-        volumeMounts:
-        - name: config-volume
-          mountPath: /config
-        - name: data-volume
-          mountPath: /data
-      volumes:
-      - name: config-volume
-        hostPath:
-          path: {{ .Values.volumes.configVolume.hostPath }}
-      - name: data-volume
-        hostPath:
-          path: {{ .Values.volumes.dataVolume.hostPath }}
+        # volumeMounts:
+        # - name: config-volume
+        #   mountPath: /config
+        # - name: data-volume
+        #   mountPath: /data
+      # volumes:
+      # - name: config-volume
+      #   hostPath:
+      #     path: {{ .Values.volumes.configVolume.hostPath }}
+      # - name: data-volume
+      #   hostPath:
+      #     path: {{ .Values.volumes.dataVolume.hostPath }}
