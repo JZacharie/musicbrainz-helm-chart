@@ -12,11 +12,11 @@ environment:
   # WEBADDRESS: <ip of host>
   NPROC: 1
 
-volumes:
-  configVolume:
-    hostPath: </path/to/appdata/config>
-  dataVolume:
-    hostPath: </path/to/appdata/data>
+# volumes:
+#   configVolume:
+#     hostPath: </path/to/appdata/config>
+#   dataVolume:
+#     hostPath: </path/to/appdata/data>
 
 ports:
   - name: http
