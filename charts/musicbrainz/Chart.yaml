@@ -28,4 +28,4 @@ name: musicbrainz
 sources:
 - https://wiki.musicbrainz.org/MusicBrainz_Server/Setup
 - https://hub.docker.com/r/linuxserver/musicbrainz
-version: 2.9.5
+version: 2.9.6
