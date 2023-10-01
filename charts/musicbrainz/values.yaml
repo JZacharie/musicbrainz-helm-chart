@@ -8,8 +8,8 @@ environment:
   PUID: 1000
   PGID: 1000
   TZ: Europe/London
-  BRAINZCODE: <code from MusicBrainz>
-  WEBADDRESS: <ip of host>
+  # BRAINZCODE: <code from MusicBrainz>
+  # WEBADDRESS: <ip of host>
   NPROC: 1
 
 volumes:
