@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: musicbrainz
+  namespace: sandbox
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: musicbrainz
+  template:
+    metadata:
+      labels:
+        app: musicbrainz
+    spec:
+      containers:
+      - name: musicbrainz
+        image: ghcr.io/linuxserver/musicbrainz:latest
+        # env:
+        # {{- toYaml .Values.environment | nindent 12 }}
+        ports:
+        - containerPort: 5000
+        # volumeMounts:
+        # - name: config-volume
+        #   mountPath: /config
+        # - name: data-volume
+        #   mountPath: /data
+      # volumes:
+      # - name: config-volume
+      #   hostPath:
+      #     path: {{ .Values.volumes.configVolume.hostPath }}
+      # - name: data-volume
+      #   hostPath:
+      #     path: {{ .Values.volumes.dataVolume.hostPath }}
