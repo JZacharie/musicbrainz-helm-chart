@@ -18,8 +18,7 @@ spec:
         env:
         {{- toYaml .Values.environment | nindent 12 }}
         ports:
-        - name: http
-          containerPort: {{ .Values.ports.http.containerPort }}
+        - containerPort: {{ .Values.ports.http.containerPort }}
         # volumeMounts:
         # - name: config-volume
         #   mountPath: /config
