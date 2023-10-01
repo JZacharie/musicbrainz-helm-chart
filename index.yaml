@@ -7,6 +7,37 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v21.12
+    created: "2023-10-01T18:55:53.12581683Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A simple, self-hosted, easy-to-use platform for organising and storing
+      information.
+    digest: 6e1e42da726072456ebd31d509bd0c19d505f2e2012ca4a8fb1f8030cc6bd293
+    home: https://hub.docker.com/r/linuxserver/musicbrainz
+    icon: https://avatars3.githubusercontent.com/u/20912696?s=400&v=4?sanitize=true
+    keywords:
+    - musicbrainz
+    - server
+    - hosted
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: joseph@zacharie.org
+      name: jzacharie
+    name: musicbrainz
+    sources:
+    - https://wiki.musicbrainz.org/MusicBrainz_Server/Setup
+    - https://hub.docker.com/r/linuxserver/musicbrainz
+    urls:
+    - https://github.com/JZacharie/musicbrainz-helm-chart/releases/download/musicbrainz-2.9.6/musicbrainz-2.9.6.tgz
+    version: 2.9.6
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v21.12
     created: "2023-10-01T18:53:32.256857894Z"
     dependencies:
     - name: common
@@ -176,4 +207,4 @@ entries:
     urls:
     - https://github.com/JZacharie/musicbrainz-helm-chart/releases/download/musicbrainz-helm-chart-0.1.2/musicbrainz-helm-chart-0.1.2.tgz
     version: 0.1.2
-generated: "2023-10-01T18:53:32.257051397Z"
+generated: "2023-10-01T18:55:53.125848329Z"
