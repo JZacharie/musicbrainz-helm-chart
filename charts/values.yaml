@@ -10,7 +10,7 @@ environment:
   TZ: Europe/London
   BRAINZCODE: <code from MusicBrainz>
   WEBADDRESS: <ip of host>
-  NPROC: <parameter>
+  NPROC: 1
 
 volumes:
   configVolume:
